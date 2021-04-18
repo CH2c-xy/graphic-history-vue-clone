@@ -6,5 +6,5 @@ module.exports = {
       filename: "index.html",
       title: "A brief history of graphic design, visualized",
     },
-  },
+  }
 };

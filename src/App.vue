@@ -1,28 +1,17 @@
 <template>
   <div id="app">
-    <full-page>
+    <full-page
+      id="fullpage"
+      ref="fullpage"
+      :options="fullPageOptions"
+    >
       <div class="section">
-        <div
-          class="flex flex-nowrap justify-around content-center text-center mt-48 items-center mx-24 font-special-elite font-normal"
-        >
-          <button class="nav-button">
-            <p>about site</p>
-          </button>
-          <button class="nav-button">
-            <p>creators</p>
-          </button>
-          <img
-            class="flex-shrink mx-24"
-            alt="Hooooo"
-            src="/img/owl.svg"
-            width="80px"
-          >
-          <button class="nav-button">
-            <p>normal view</p>
-          </button>
-          <button class="nav-button">
-            <p>split view</p>
-          </button>
+        <div class="flex flex-col">
+          <nav-bar />
+          <d3-bubble class="my-24" />
+          <h1 class="text-center text-lg font-special-elite font-normal text-black">
+            A brief history of graphic design, visualized
+          </h1>
         </div>
       </div>
       <div class="section">
@@ -32,30 +21,36 @@
           width="100px"
           class="mx-auto"
         >
-        <HelloWorld msg="Welcome to Your Vue.js App" />
       </div>
     </full-page>
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import NavBar from './components/NavBar.vue';
+import D3Bubble from './components/D3Bubble.vue';
 
 export default {
   name: "App",
+
   components: {
-    HelloWorld,
+    NavBar,
+    D3Bubble,
   },
+
+  data () {
+    return {
+      fullPageOptions: {
+        licenseKey: 'YOUR_KEY_HERE',
+        scrollBar: false,
+        navigation: true
+      }
+    }
+  },
+
 };
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
