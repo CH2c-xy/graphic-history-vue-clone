@@ -2,8 +2,8 @@
 
 <h3 align="center">graphic-history-vue-clone</h3>
 
-<p align="center">A Vue clone of "graphic design history visualized" ( <a href="https://github.com/ch2c-xy/graphic-history/">Git</a> | <a href="https://ch2c-xy.github.io/graphic-history/">Website</a> )</p>
-<p align="center">The original website is made by Alicia Chen and Evelina Ellis</p>
+<p align="center">A Vue clone of <a href="https://ch2c-xy.github.io/graphic-history/">"graphic design history visualized"</a></p>
+<p align="center">The original website is made by Alicia Chen and Evelina Ellis. ( Original <a href="https://github.com/ch2c-xy/graphic-history/">Git</a> and <a href="https://ch2c-xy.github.io/graphic-history/">Website</a> )</p>
 
 ### Goals
 

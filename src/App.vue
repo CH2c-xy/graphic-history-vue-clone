@@ -12,6 +12,15 @@
           <h1 class="text-center text-lg font-special-elite font-normal text-black">
             A brief history of graphic design, visualized
           </h1>
+          <p class="text-center text-sm font-special-elite font-normal text-black  mt-12">
+            view on
+            <a
+              href="https://github.com/colinleefish/graphic-history-vue-clone"
+              class="underline"
+            >
+              github
+            </a>
+          </p>
         </div>
       </div>
       <div class="section">
