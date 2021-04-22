@@ -8,7 +8,7 @@
 ### Goals
 
 - [x] Vertical full page scroll
-- [ ] D3.js bubble (normal and split view), this is hard!!!!!
+- [ ] D3.js bubble (normal and split view), this is hard!!!!! But it's duable
 
 ### Project
 
